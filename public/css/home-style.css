@@ -3,7 +3,7 @@
 }
 
 body{
-  background-color: #404040;
+  background-color: #D2D2D2;
   margin: 0px;
 }
 
@@ -80,7 +80,7 @@ body{
   padding: 5% 5% 5% 8%;
   text-decoration: none;
   font-size: 12px;
-  color:  #404040;
+  color:  #1F1F1F;
   display: block;
   transition: 0.3s;
 }
@@ -93,6 +93,7 @@ body{
   margin-top:0;
   margin-left: 8%;
   margin-right: 8%;
+  margin-bottom: 6%;
   background-color: white;
   border-radius: 5px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -101,7 +102,7 @@ body{
 #periode, #judulperiode{
   text-align: center;
   font-size: 11px;
-  color: #404040;
+  color: #1F1F1F;
 }
 
 hr{
@@ -110,7 +111,41 @@ hr{
 
 #nopart{
   text-align: center;
-  font-size: 12px;
-  color: #404040;
+  font-size: 17px;
+  color: #1F1F1F;
   font-weight: bold;
+}
+
+.donasisekarang{
+  text-align: center;
+}
+
+#totaldonasi{
+  font-size: 17px;
+  font-weight: bold;
+  color: #1F1F1F;
+}
+
+#tglsekarang{
+  font-size: 11px;
+  color: #1F1F1F;
+}
+
+#totalpaket{
+  margin-bottom: 5%;
+  font-weight: bold;
+  font-size: 50px;
+  color: #9B4A00;
+}
+
+#labelpaket{
+  font-size: 13px;
+  color: #1F1F1F;
+}
+
+#totaldonatur{
+  margin-bottom: 5%;
+  font-weight: bold;
+  font-size: 50px;
+  color: #047FC3;
 }

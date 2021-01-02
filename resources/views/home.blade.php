@@ -42,7 +42,18 @@
         <p id="judulperiode">PERIODE</p>
         <p id="periode">21 Agustus 2020 - 19 September 2020</p>
       </div>
+    </div>
 
+    <div class="row partinfo">
+      <div class="col-12 donasisekarang">
+        <p  id="totaldonasi">Total: Rp 22.100.000</p>
+        <hr>
+        <p  id="tglsekarang">12 September 2020</p>
+        <span id="totaldonatur">±80</span>
+        <p>Donatur</p>
+        <span id="totalpaket">±736</span>
+        <p>Paket</p>
+      </div>
     </div>
 
     <script type="text/javascript">
