@@ -106,7 +106,8 @@ body{
 }
 
 hr{
-  width: 80%;
+  width: 90%;
+  color: #C8C8C8;
 }
 
 #nopart{
@@ -120,6 +121,7 @@ hr{
   text-align: center;
 }
 
+
 #totaldonasi{
   font-size: 17px;
   font-weight: bold;
@@ -129,6 +131,11 @@ hr{
 #tglsekarang{
   font-size: 11px;
   color: #1F1F1F;
+}
+
+.totalpaket{
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 #totalpaket{
@@ -143,9 +150,45 @@ hr{
   color: #1F1F1F;
 }
 
+.totaldonatur{
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
 #totaldonatur{
   margin-bottom: 5%;
   font-weight: bold;
   font-size: 50px;
   color: #047FC3;
+}
+
+#persentase{
+  width: 100%;
+  height: 12px;
+}
+
+.jazakumullah{
+    border-radius: 4px;
+    padding: 5%;
+    margin: 0;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+    background-color: #1E8E02;
+}
+
+progress::-webkit-progress-value {
+  background: lightblue;
+}
+
+progress::-moz-progress-bar {
+  background: #1E8E02;
+}
+
+progress::-webkit-progress-value {
+  background: red;
+}
+
+progress::-webkit-progress-bar {
+  background: #1E8E02;
 }

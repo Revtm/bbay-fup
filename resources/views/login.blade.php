@@ -4,7 +4,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/home-style.css">
-    <title>Home</title>
+    <link rel="stylesheet" href="css/login-style.css">
+    <title>Login</title>
     <script src="https://kit.fontawesome.com/ca6c46cb77.js" crossorigin="anonymous"></script>
   </head>
   <body>
@@ -23,49 +24,34 @@
     <div id ="idsidenav" class="row sidenav">
       <div class="col-12">
         <a class="closebtn" href="#" onclick="closeMenu()">&times;</a>
-        <a href="/" id="pagenow">Halaman Utama</a>
-        <a href="/login">Login Member FUP</a>
+        <a href="/">Halaman Utama</a>
+        <a href="/login" id="pagenow">Login Member FUP</a>
         <a href="#">Berita FUP</a>
       </div>
     </div>
 
-    <div class="row poster">
+    <div class="row loginform">
       <div class="col-12">
-          <img id="poster" src="bbay-part/bbay-part-23.jpg" alt="">
+          <div class="judullogin">
+            Login Member FUP
+            <hr>
+          </div>
+          <form action="" method="post">
+            <input id="wa_login" type="text" name="no_wa" placeholder="Nomor WA/e-mail">
+            <input id="pass_login" type="password" name="pass" placeholder="password">
+            <input type="submit" name="loginbtn" value="Login">
+          </form>
+          <div class="daftar">
+              <a href="#">Belum punya akun?</a>
+          </div>
+          <div class="lupa">
+            <a href="#">Lupa password?</a>
+          </div>
       </div>
     </div>
 
-    <div class="row partinfo">
-      <div class="col-12">
-        <p id="nopart">PART 22</p>
-        <hr>
-        <p id="judulperiode">PERIODE</p>
-        <p id="periode">21 Agustus 2020 - 19 September 2020</p>
-      </div>
-    </div>
 
-    <div class="row partinfo">
-      <div class="col-12 donasisekarang">
-        <p  id="totaldonasi">Total: Rp 22.100.500</p>
-        <hr>
-        <p  id="tglsekarang">12 September 2020</p>
-        <progress id="persentase" value="80" max="100"></progress>
-        <div class="totaldonatur">
-          <span id="totaldonatur">±80</span>
-          <br>
-          <span>Donatur</span>
-        </div>
-        <div class="totalpaket">
-          <span id="totalpaket">±736</span>
-          <br>
-          <span>Paket</span>
-        </div>
-
-        <div class="jazakumullah">
-          Jazakumullah Khairan!
-        </div>
-      </div>
-    </div>
+    </form>
 
     <script type="text/javascript">
 
