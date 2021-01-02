@@ -1,0 +1,116 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #404040;
+  margin: 0px;
+}
+
+[class*="col-"] {
+  float:left;
+}
+
+.row::after{
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.nav{
+  margin: 0;
+  background-color: #1E8E02;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#nav-bbay{
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  margin: 10%;
+}
+
+.fas{
+  margin: 20%;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+}
+
+.poster{
+  margin: 5%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 5px;
+}
+#poster{
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.sidenav{
+  height: 100%;
+  width: 0%;
+  position: fixed;
+  z-index: 1;
+  top:0;
+  left: 0;
+  background-color: white;
+  overflow-x: hidden;
+  padding-top: 10%;
+  transition: 0.5s;
+}
+
+.sidenav a{
+  padding: 5% 5% 5% 8%;
+  text-decoration: none;
+  font-size: 12px;
+  color:  #404040;
+  display: block;
+  transition: 0.3s;
+}
+
+#pagenow{
+  font-weight: bold;
+}
+
+.partinfo{
+  margin-top:0;
+  margin-left: 8%;
+  margin-right: 8%;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#periode, #judulperiode{
+  text-align: center;
+  font-size: 11px;
+  color: #404040;
+}
+
+hr{
+  width: 80%;
+}
+
+#nopart{
+  text-align: center;
+  font-size: 12px;
+  color: #404040;
+  font-weight: bold;
+}
