@@ -29,3 +29,7 @@ Route::get('/login', function () {
 Route::get('/beranda', function () {
     return view('beranda');
 });
+
+Route::get('/donasi', function () {
+    return view('donasi');
+});

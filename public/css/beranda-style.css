@@ -2,7 +2,7 @@
   font-size: 12px;
   height: 160px;
   overflow-y:auto;
-  overflow-x: auto;
+  overflow-x:auto;
   border-radius: 5px;
   margin-left: 2%;
   margin-right: 2%;
@@ -44,4 +44,22 @@ th, td {
 
 .donasi{
   text-align: right;
+}
+
+.donasibaru{
+  position:fixed;
+	width:45px;
+	height:45px;
+	bottom:55px;
+	right:10px;
+	background-color:darkgreen;
+	color:white;
+	border-radius:50px;
+  font-size: 17px;
+	text-align:center;
+	box-shadow: 1px 1px 1px #999;
+}
+
+.btndonasibaru{
+  margin:14px;
 }

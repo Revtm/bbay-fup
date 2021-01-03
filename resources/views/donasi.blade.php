@@ -4,8 +4,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/home-style.css">
-    <link rel="stylesheet" href="css/login-style.css">
-    <title>Login</title>
+    <link rel="stylesheet" href="css/donasi-style.css">
+    <title>Donasi</title>
     <script src="https://kit.fontawesome.com/ca6c46cb77.js" crossorigin="anonymous"></script>
   </head>
   <body>
@@ -24,35 +24,31 @@
     <div id ="idsidenav" class="row sidenav">
       <div class="col-12">
         <a class="closebtn" href="#" onclick="closeMenu()">&times;</a>
-        <a href="/">Halaman Utama</a>
-        <a href="/login" id="pagenow">Login Member FUP</a>
-        <a href="#">Berita FUP</a>
+        <a href="/beranda">Beranda</a>
+        <a href="/donasi" id="pagenow">Donasi</a>
+        <a href="/"><u>Logout</u></a>
       </div>
     </div>
 
-    <div class="row loginform">
+    <div class="juduldonasi">
+      Donasi
+      <br>
+      <hr>
+    </div>
+
+    <div class="row donasiform">
       <div class="col-12">
-          <div class="judullogin">
-            Login Member FUP
-            <hr>
-          </div>
           <form action="" method="post">
-            <input id="wa_login" type="text" name="no_wa" placeholder="Nomor WA">
-            <input id="pass_login" type="password" name="pass" placeholder="password">
-            <input type="submit" name="loginbtn" value="Login">
+            <input type="text" name="namadonatur" placeholder="Nama Donatur (cth: Bpk Budi)">
+            <input type="datetime" name="tanggaldonasi" placeholder="Tanggal Donasi (cth: 2020-08-18)">
+            <input type="text" name="nominaldonasi" placeholder="Nominal Donasi (cth: 30000)">
+            <label for="buktitransfer" style="color:#1F1F1F; font-size:14px;">Bukti Transfer:</label>
+            <input type="file" name="buktitransfer" style="color:#1F1F1F; font-size:14px;">
+            <br><br>
+            <input type="submit" name="donasibtn" value="Kirim">
           </form>
-          <div class="daftar">
-              <a href="#">Belum punya akun?</a>
-          </div>
-          <div class="lupa">
-            <a href="#">Lupa password?</a>
-          </div>
       </div>
     </div>
-
-
-    </form>
-
 
     <script type="text/javascript">
 

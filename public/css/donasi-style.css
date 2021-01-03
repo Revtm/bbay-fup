@@ -1,0 +1,30 @@
+.juduldonasi{
+  margin-top: 5%;
+  text-align: center;
+  color: #1F1F1F;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.donasiform{
+    margin:5%;
+}
+
+input[type=text], input[type=datetime] {
+  width: 100%;
+  padding: 1% 2%;
+  margin: 3% 0;
+  box-sizing: border-box;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+  background-color: #1E8E02;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  color: white;
+  padding: 3% 5%;
+  margin-top: 3%;
+  text-decoration: none;
+  cursor: pointer;
+}

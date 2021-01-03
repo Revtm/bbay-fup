@@ -19,7 +19,6 @@ class InsertData extends Seeder
     {
       DB::table('transfer')->delete();
       DB::table('part_bbay')->delete();
-      DB::table('donatur')->delete();
       DB::table('akun')->delete();
 
       DB::table('akun')->insert([
@@ -61,20 +60,13 @@ class InsertData extends Seeder
         ]
       ]);
 
-      DB::table('donatur')->insert([
-        [
-            'id_donatur' => '1',
-            'no_wa' => '083168252032',
-            'nama_donatur' => 'Pak Budi',
-        ]
-      ]);
 
       DB::table('transfer')->insert([
           [
               'id_trans' => '1',
               'no_wa' => '083168252031',
               'part' => '22',
-              'id_donatur' => '1',
+              'nama_donatur' => 'Pak Budi',
               'tanggal_trans' => '2021-01-02',
               'bukti_trans' => 'Iqbal_09:30:05_2021-01-02.jpg',
               'nominal_trans' => '120000',

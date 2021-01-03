@@ -10,13 +10,13 @@
   <body>
     <div class="row nav" >
       <div class="col-3">
-        <i id="menubtn" class="fas fa-bars" onclick="openMenu()"></i>
+        <i id="menubtn" class="fas fa-bars fas2" onclick="openMenu()"></i>
       </div>
       <div class="col-6">
         <p id="nav-bbay">BBAY</p>
       </div>
       <div class="col-3">
-        <i class="fas fa-home"></i>
+        <i class="fas fa-home fas2"></i>
       </div>
     </div>
 
@@ -64,6 +64,12 @@
         <div class="jazakumullah">
           Jazakumullah Khairan!
         </div>
+      </div>
+    </div>
+
+    <div class="row footbar">
+      <div class="col-12">
+        <p>© 2021 Fiqh Untuk Pemula (FUP). <br> All Rights Reserved.</p>
       </div>
     </div>
 

@@ -38,6 +38,19 @@ body{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.footbar{
+  width: 100%;
+  font-size: 11px;
+  color: white;
+  text-align: center;
+  margin-top: 18%;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  background-color: #1E8E02;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 #nav-bbay{
   color: white;
   font-size: 25px;
@@ -45,7 +58,7 @@ body{
   margin: 10%;
 }
 
-.fas{
+.fas2{
   margin: 20%;
   font-size: 30px;
   color: white;

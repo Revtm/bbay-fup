@@ -11,13 +11,13 @@
   <body>
     <div class="row nav" >
       <div class="col-3">
-        <i id="menubtn" class="fas fa-bars" onclick="openMenu()"></i>
+        <i id="menubtn" class="fas fa-bars fas2" onclick="openMenu()"></i>
       </div>
       <div class="col-6">
         <p id="nav-bbay">BBAY</p>
       </div>
       <div class="col-3">
-        <i class="fas fa-home"></i>
+        <i class="fas fa-home fas2"></i>
       </div>
     </div>
 
@@ -93,10 +93,50 @@
                 </tr>
                 <tr>
                   <td>BBAY Part 22</td>
-                  <td class="donasi"><a href="#">Rp 30.000</a></td>
+                  <td class="donasi"><a href="#">Rp 150.000</a></td>
                 </tr>
           </table>
         </div>
+      </div>
+    </div>
+
+    <div class="row partinfo partinfo2">
+      <div class="col-12">
+        <div id="judultabel">
+          <a href="#"><< Kembali</a>
+          <br>
+          <hr>
+          BBAY PART <span>22</span>:<span> Rp 150.000</span>
+        </div>
+        <div class="tabel">
+          <table class="tabelranking">
+                <tr>
+                  <td>(2020-08-10)</td>
+                  <td>Saya</td>
+                  <td class="donasi">Rp 30.000</td>
+                </tr>
+                <tr>
+                  <td>(2020-08-11)</td>
+                  <td>Pak Budi</td>
+                  <td class="donasi">Rp 90.000</td>
+                </tr>
+                <tr>
+                  <td>(2020-08-12)</td>
+                  <td>Saya</td>
+                  <td class="donasi">Rp 30.000</td>
+                </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <a class="donasibaru" href="#">
+      <i class="fas fa-plus btndonasibaru"></i>
+    </a>
+
+    <div class="row footbar">
+      <div class="col-12">
+        <p>© 2021 Fiqh Untuk Pemula (FUP). <br> All Rights Reserved.</p>
       </div>
     </div>
 
