@@ -1,0 +1,47 @@
+.tabel{
+  font-size: 12px;
+  height: 160px;
+  overflow-y:auto;
+  overflow-x: auto;
+  border-radius: 5px;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.salam{
+  margin-top: 5%;
+  text-align: center;
+  color: #1F1F1F;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.partinfo2{
+  margin-top: 3%;
+}
+
+#judultabel{
+  color: #1F1F1F;
+  text-align: center;
+  font-size: 13px;
+  font-weight: bold;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+tr:nth-child(even) {background-color: #f2f2f2;}
+
+table{
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  color: #1F1F1F;
+  text-align: left;
+  padding: 2%;
+}
+
+.donasi{
+  text-align: right;
+}
