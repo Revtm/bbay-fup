@@ -9,7 +9,7 @@
 
 ## Desain (<a href="https://www.figma.com/file/k7g6RndH64ceKasLNPVuSM/BBAY?node-id=0%3A1">lihat figma</a>)
 <center>
-Halaman Utama (Home)
+Halaman Utama (Homepage)
 <br>
 <img src="home-design.png">
 <br>
